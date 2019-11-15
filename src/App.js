@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Heading from './Heading';
-import Cart from './Cart';
-import Customize from './Customize';
+import Heading from './components/Heading';
+import Cart from './components/Cart';
+import Customize from './components/Customize';
 import './App.css';
 
 class App extends Component {

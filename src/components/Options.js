@@ -11,7 +11,7 @@ class Options extends Component {
     const features = Object.keys(this.props.features).map((feature, idx) => {
       const featureHash = feature + "-" + idx;
       const options = this.props.features[feature].map(item => {
-        const itemHash = slugify(JSON.stringify(item));
+      const itemHash = slugify(JSON.stringify(item));
     
         return (
           <div key={itemHash} className="feature__item">
